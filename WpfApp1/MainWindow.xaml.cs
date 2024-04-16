@@ -89,5 +89,53 @@ namespace WpfApp1
             MessageBox.Show($"Button6's color changed to {colorm}", "Changing", MessageBoxButton.OK, MessageBoxImage.Information);
 
         }
+
+        private void rght1(object sender, MouseButtonEventArgs e)
+        {
+            this.Title = (string)b1.Content;
+            b1.Visibility =Visibility.Collapsed;
+
+        }
+
+        private void rght2(object sender, MouseButtonEventArgs e)
+        {
+            this.Title = (string)b2.Content;
+            b2.Visibility = Visibility.Collapsed;
+
+        }
+
+
+
+        private void rght3(object sender, MouseButtonEventArgs e)
+        {
+            this.Title = (string)b3.Content;
+            b3.Visibility = Visibility.Collapsed;
+
+        }
+
+
+        private void rght4(object sender, MouseButtonEventArgs e)
+        {
+            this.Title = (string)b4.Content;
+            b4.Visibility = Visibility.Collapsed;
+
+        }
+
+
+        private void rght5(object sender, MouseButtonEventArgs e)
+        {
+            this.Title = (string)b5.Content;
+            b5.Visibility = Visibility.Collapsed;
+
+        }
+
+        private void rght6(object sender, MouseButtonEventArgs e)
+        {
+            this.Title = (string)b6.Content;
+            b6.Visibility = Visibility.Collapsed;
+
+        }
+
+
     }
 }
